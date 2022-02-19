@@ -3,6 +3,8 @@
   (name (_ "The Mountains"))
   (author "Cookie Monster")
   (license "CC-BY-SA 4.0 Intl")
+  (icon "")
+  (icon-locked "")
   (sector
     (name "main")
     (ambient-light
@@ -10,6 +12,7 @@
     )
     (background
       (name "normal")
+      (color 1 1 1)
       (speed 0.5)
       (image-top "/images/background/bluemountain-top.png")
       (image "/images/background/bluemountain-middle.png")
@@ -17,6 +20,7 @@
     )
     (background
       (name "frente 2")
+      (color 1 1 1)
       (alignment "bottom")
       (scroll-speed-x 0.5)
       (scroll-speed-y 0.5)
@@ -28,6 +32,7 @@
     )
     (background
       (name "frente 1")
+      (color 1 1 1)
       (alignment "bottom")
       (scroll-speed-x 0.5)
       (scroll-speed-y 0.5)
@@ -36,6 +41,14 @@
       (image "/images/background/arcticskies2.png")
       (image-bottom "images/background/transparent_up.png")
       (z-pos -250)
+    )
+    (background
+      (color 1 1 1)
+      (speed 0.5)
+      (image-top "/images/background/bluemountain/bluemountain-top.png")
+      (image "/images/background/bluemountain/bluemountain-top.png")
+      (image-bottom "/images/background/bluemountain/bluemountain-top.png")
+      (z-pos -310)
     )
     (camera
       (name "Camera")
@@ -101,6 +114,24 @@
     (icecrusher
       (x 8999)
       (y 809)
+    )
+    (invisible_wall
+      (width 32)
+      (height 64)
+      (x 6496)
+      (y 1408)
+    )
+    (invisible_wall
+      (width 32)
+      (height 64)
+      (x 6944)
+      (y 1408)
+    )
+    (invisible_wall
+      (width 32)
+      (height 64)
+      (x 11040)
+      (y 1312)
     )
     (jumpy
       (direction "left")
