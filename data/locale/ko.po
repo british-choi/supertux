@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the SuperTux package.
 # 
 # Translators:
+# Youngjun <british2@naver.com>, 2022
 # Myeongjin <aranet100@gmail.com>, 2016-2021
 # Roland Kim <dyn4micwork@gmail.com>, 2014-2015
 msgid ""
@@ -369,7 +370,7 @@ msgstr "모음 스크립트"
 
 #: src/object/ghost_particle_system.hpp:36
 msgid "Ghost Particles"
-msgstr "유령 입자"
+msgstr "유령 파티클"
 
 #: src/object/camera.cpp:219
 msgid "Mode"
@@ -447,7 +448,7 @@ msgstr "보이지 않는 상자"
 
 #: src/object/snow_particle_system.hpp:35
 msgid "Snow Particles"
-msgstr "눈 입자"
+msgstr "눈 파티클"
 
 #: src/object/powerup.hpp:35
 msgid "Powerup"
@@ -540,7 +541,7 @@ msgstr "운동량 변화율"
 
 #: src/object/rain_particle_system.hpp:40
 msgid "Rain Particles"
-msgstr "비 입자"
+msgstr "비 파티클"
 
 #: src/object/platform.hpp:45
 msgid "Platform"
@@ -561,7 +562,7 @@ msgstr "녹슨 트램폴린"
 
 #: src/object/particlesystem.hpp:57
 msgid "Particle system"
-msgstr "입자 체제"
+msgstr "파티클 시스템"
 
 #: src/object/candle.cpp:75 src/object/torch.cpp:101
 msgid "Burning"
@@ -725,7 +726,7 @@ msgstr ""
 
 #: src/object/wind.cpp:85
 msgid "Fancy Particles"
-msgstr "멋진 입자"
+msgstr "팬시 파티클"
 
 #: src/object/bicycle_platform.hpp:64
 msgid "Bicycle Platform"
@@ -746,7 +747,7 @@ msgstr "놓은 상태 스크립트"
 
 #: src/object/particlesystem_interactive.hpp:48
 msgid "Interactive particle system"
-msgstr "상호 작용 입자 체제"
+msgstr "인터랙티브 파티클 시스템"
 
 #: src/object/thunderstorm.cpp:70
 msgid "Interval"
@@ -758,7 +759,7 @@ msgstr "스트라이크 스크립트"
 
 #: src/object/cloud_particle_system.hpp:41
 msgid "Cloud Particles"
-msgstr "구름 입자"
+msgstr "구름 파티클"
 
 #: src/object/custom_particle_system.cpp:423
 msgid "Texture"
@@ -1259,7 +1260,7 @@ msgstr "스크립트된 개체"
 
 #: src/object/custom_particle_system_file.hpp:39
 msgid "Custom Particles from file"
-msgstr "파일의 사용자 정의 입자"
+msgstr "파일의 사용자 정의 파티클"
 
 #: src/object/coin.hpp:78
 msgid "Heavy Coin"
@@ -1556,7 +1557,7 @@ msgstr "잠자는 크리스탈로"
 msgid "Spring Leaf"
 msgstr "봄 잎"
 
-#: src/badguy/willowisp.hpp:55
+#: src/badguy/willowisp.hpp:57
 msgid "Will o' Wisp"
 msgstr "윌 오 위스프"
 
@@ -2003,7 +2004,7 @@ msgstr "텍스처 캐시 덤프"
 
 #: src/supertux/menu/particle_editor_save_as.cpp:33
 msgid "Save particle as"
-msgstr "다른 이름으로 입자 저장"
+msgstr "다른 이름으로 파티클 저장"
 
 #: src/supertux/menu/particle_editor_save_as.cpp:37
 #: src/supertux/menu/editor_save_as.cpp:37
@@ -2890,7 +2891,7 @@ msgstr "턱스를 죽입니다"
 
 #: src/supertux/menu/particle_editor_menu.cpp:32
 msgid "Particle Editor"
-msgstr "입자 편집기"
+msgstr "파티클 편집기"
 
 #: src/supertux/menu/particle_editor_menu.cpp:36
 #: src/supertux/menu/editor_menu.cpp:45
@@ -2899,23 +2900,23 @@ msgstr "편집기로 돌아가기"
 
 #: src/supertux/menu/particle_editor_menu.cpp:37
 msgid "New Particle Config"
-msgstr "새 입자 구성"
+msgstr "새 파티클 구성"
 
 #: src/supertux/menu/particle_editor_menu.cpp:38
 msgid "Save Particle Config"
-msgstr "입자 구성 저장"
+msgstr "파티클 구성 저장"
 
 #: src/supertux/menu/particle_editor_menu.cpp:39
 msgid "Save Particle Config as..."
-msgstr "입자 구성을 다른 이름으로 저장..."
+msgstr "파티클 구성을 다른 이름으로 저장..."
 
 #: src/supertux/menu/particle_editor_menu.cpp:40
 msgid "Load Another Particle Config"
-msgstr "다른 입자 구성 불러오기"
+msgstr "다른 파티클 구성 불러오기"
 
 #: src/supertux/menu/particle_editor_menu.cpp:44
 msgid "Open Particle Directory"
-msgstr "입자 디렉토리 열기"
+msgstr "파티클 디렉토리 열기"
 
 #: src/supertux/menu/particle_editor_menu.cpp:45
 #: src/supertux/menu/editor_menu.cpp:88
@@ -2924,7 +2925,7 @@ msgstr "바로 가기 키"
 
 #: src/supertux/menu/particle_editor_menu.cpp:49
 msgid "Exit Particle Editor"
-msgstr "입자 편집기 종료"
+msgstr "파티클 편집기 종료"
 
 #: src/supertux/menu/particle_editor_menu.cpp:120
 msgid ""
@@ -3154,6 +3155,18 @@ msgstr "기타"
 msgid "Region"
 msgstr "지역"
 
+#: src/supertux/main.cpp:563
+msgid ""
+"The UBports version is under heavy development!\n"
+"If you encounter issues, PLEASE contact the maintainter\n"
+"at https://github.com/supertux/supertux/issues or on the\n"
+"Open Store's Telegram at https://open-store.io/telegram"
+msgstr ""
+"UBports 버전은 현재 개발 중입니다!\n"
+"문제가 발생하면 https://github.com/supertux/supertux/issues "
+"또는 Open Store의 Telegram https://open-store.io/telegram에서 "
+"유지 관리자에게 연락하세요."
+
 #: src/control/joystick_config.cpp:85
 msgid "Joystick Mappings"
 msgstr "조이스틱 조합 설정"
@@ -3162,67 +3175,83 @@ msgstr "조이스틱 조합 설정"
 msgid "<no title>"
 msgstr "<제목 없음>"
 
-#: src/editor/node_marker.cpp:79
+#: src/editor/node_marker.cpp:122
 msgid "Path Node"
 msgstr "길 노드"
 
-#: src/editor/object_settings.cpp:112
+#: src/editor/node_marker.cpp:123
+msgid "Press CTRL to move Bezier handles"
+msgstr "Ctrl 키를 눌러 베지어 핸들 이동"
+
+#: src/editor/node_marker.cpp:127
+msgid "Easing"
+msgstr "완화"
+
+#: src/editor/object_settings.cpp:119
 msgid "up"
 msgstr "위"
 
-#: src/editor/object_settings.cpp:112
+#: src/editor/object_settings.cpp:119
 msgid "down"
 msgstr "아래"
 
-#: src/editor/object_settings.cpp:124
+#: src/editor/object_settings.cpp:131
 msgid "West"
 msgstr "서"
 
-#: src/editor/object_settings.cpp:124
+#: src/editor/object_settings.cpp:131
 msgid "East"
 msgstr "동"
 
-#: src/editor/object_settings.cpp:124
+#: src/editor/object_settings.cpp:131
 msgid "North"
 msgstr "북"
 
-#: src/editor/object_settings.cpp:124
+#: src/editor/object_settings.cpp:131
 msgid "South"
 msgstr "남"
 
-#: src/editor/object_settings.cpp:137
+#: src/editor/object_settings.cpp:144
 msgid "One shot"
 msgstr "한 번 쏘기"
 
-#: src/editor/object_settings.cpp:137
+#: src/editor/object_settings.cpp:144
 msgid "Ping-pong"
 msgstr "왔다 갔다"
 
-#: src/editor/object_settings.cpp:137
+#: src/editor/object_settings.cpp:144
 msgid "Circular"
 msgstr "돌기"
 
-#: src/editor/object_settings.cpp:137
+#: src/editor/object_settings.cpp:144
 msgid "Unordered"
 msgstr "순서 없음"
 
-#: src/editor/object_option.cpp:83
+#: src/editor/object_option.cpp:85
 msgid "true"
 msgstr "참"
 
-#: src/editor/object_option.cpp:83
+#: src/editor/object_option.cpp:85
 msgid "false"
 msgstr "거짓"
 
-#: src/editor/object_option.cpp:246 src/editor/object_option.cpp:295
+#: src/editor/object_option.cpp:271 src/editor/object_option.cpp:320
 msgid "invalid"
 msgstr "잘못됨"
 
-#: src/editor/object_option.cpp:553
+#: src/editor/object_option.cpp:580
 msgid "Remove"
 msgstr "제거"
 
-#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:129
+#: src/editor/object_option.cpp:597
+msgid "Test from here"
+msgstr "여기에서 테스트"
+
+#: src/editor/object_option.cpp:614
+msgid "Open Particle Editor"
+msgstr "파티클 편집기 열기"
+
+#: src/editor/worldmap_objects.hpp:56 src/editor/worldmap_objects.cpp:127
 msgid "Level"
 msgstr "레벨"
 
@@ -3238,11 +3267,111 @@ msgstr "스프라이트 바꾸기"
 msgid "Special tile"
 msgstr "특수 타일"
 
-#: src/editor/editor.cpp:477
+#: src/editor/particle_editor.cpp:126
+msgid "Max amount"
+msgstr "최대 금액"
+
+#: src/editor/particle_editor.cpp:142
+msgid "Spawn anywhere"
+msgstr "아무데나 낳다"
+
+#: src/editor/particle_editor.cpp:143
+msgid "Life duration"
+msgstr "수명 기간"
+
+#: src/editor/particle_editor.cpp:148
+msgid "Birth duration"
+msgstr "출생 기간"
+
+#: src/editor/particle_editor.cpp:153
+msgid "Death duration"
+msgstr "사망 기간"
+
+#: src/editor/particle_editor.cpp:160
+msgid "Grow"
+msgstr "자라다"
+
+#: src/editor/particle_editor.cpp:175
+msgid "Horizontal speed"
+msgstr "수평 속도"
+
+#: src/editor/particle_editor.cpp:180
+msgid "Vertical speed"
+msgstr "수직 속도"
+
+#: src/editor/particle_editor.cpp:185
+msgid "Horizontal acceleration"
+msgstr "수평 가속도"
+
+#: src/editor/particle_editor.cpp:186
+msgid "Vertical acceleration"
+msgstr "수직 가속도"
+
+#: src/editor/particle_editor.cpp:187
+msgid "Horizontal friction"
+msgstr "수평 마찰"
+
+#: src/editor/particle_editor.cpp:188
+msgid "Vertical friction"
+msgstr "수직 마찰"
+
+#: src/editor/particle_editor.cpp:190
+msgid "Initial rotation"
+msgstr "초기 회전"
+
+#: src/editor/particle_editor.cpp:201
+msgid "Rotation friction/decceleration"
+msgstr "회전 마찰/감소"
+
+#: src/editor/particle_editor.cpp:211
+msgid "Destroy"
+msgstr "파괴"
+
+#: src/editor/particle_editor.cpp:215
+msgid "Stick to surface"
+msgstr "표면에 고정"
+
+#: src/editor/particle_editor.cpp:216
+msgid "Stick and stay"
+msgstr ""
+
+#: src/editor/particle_editor.cpp:217
+msgid "No collision"
+msgstr "충돌 없음"
+
+#: src/editor/particle_editor.cpp:222
+msgid "Always destroy"
+msgstr "항상 파괴"
+
+#: src/editor/particle_editor.cpp:226
+msgid "Offscreen mode"
+msgstr "오프스크린 모드"
+
+#: src/editor/particle_editor.cpp:765
+msgid ""
+"This particle configuration contains unsaved changes,\n"
+"do you want to save?"
+msgstr ""
+"이 파티클 구성에는 저장되지 않은 변경 사항이 포함되어 \n"
+"있습니다. 저장하시겠습니까?"
+
+#: src/editor/particle_editor.cpp:773
+msgid "Save as"
+msgstr "다른 이름으로 저장"
+
+#: src/editor/editor.cpp:566
+msgid ""
+"Don't forget that your levels and assets\n"
+"aren't saved between sessions!\n"
+"If you want to keep your levels, download them\n"
+"from the \"Manage Assets\" menu."
+msgstr ""
+
+#: src/editor/editor.cpp:582
 msgid "This level contains unsaved changes, do you want to save?"
 msgstr "이 레벨에 저장하지 않는 변경이 포함되어 있습니다, 저장하시겠습니까?"
 
-#: src/editor/editor.cpp:517
+#: src/editor/editor.cpp:622
 msgid ""
 "Some obsolete add-ons are still active\n"
 "and might cause collisions with default Super Tux structure.\n"
@@ -3250,75 +3379,95 @@ msgid ""
 "Disabling these add-ons will not delete your game progress."
 msgstr "일부 오래된 부가 기능은 여전히 활성 중이며\n기본 슈퍼 턱스 구조와 충돌을 일으킬 수 있습니다.\n여전히 메뉴에서 이러한 부가 기능을 활성화할 수 있습니다.\n이러한 부가 기능을 비활성화하는 것은 게임 진행을 삭제하지 않습니다."
 
-#: src/editor/editor.cpp:520
+#: src/editor/editor.cpp:625
 msgid "Disable add-ons"
 msgstr "부가 기능 비활성화"
 
-#: src/editor/editor.cpp:525
+#: src/editor/editor.cpp:630
 msgid "Ignore (not advised)"
 msgstr "무시 (권장하지 않음)"
 
-#: src/editor/editor.cpp:529
+#: src/editor/editor.cpp:634
 msgid "Leave editor"
 msgstr "편집기 떠나기"
 
-#: src/editor/editor.cpp:740
+#: src/editor/editor.cpp:853
 msgid ""
 "Couldn't find a \"main\" sector.\n"
 "Please change the name of the sector where\n"
 "you'd like the player to start to \"main\""
 msgstr "\"주요\" 부분을 찾을 수 없었습니다.\n플레이어가 \"주요\"에서 시작하기를 원하는\n부분의 이름을 변경해주세요"
 
-#: src/editor/editor.cpp:744
+#: src/editor/editor.cpp:857
 msgid ""
 "Couldn't find a \"main\" spawnpoint.\n"
 " Please change the name of the spawnpoint where\n"
 "you'd like the player to start to \"main\""
 msgstr "\"주요\" 스폰지점을 찾을 수 없었습니다.\n 플레이어가 \"주요\"에서 시작하기를 원하는\n스폰지점의 이름을 변경해주세요"
 
-#: src/editor/worldmap_objects.cpp:130
+#: src/editor/worldmap_objects.cpp:128
 msgid "Outro script"
 msgstr "아웃트로 스크립트"
 
-#: src/editor/worldmap_objects.cpp:131
+#: src/editor/worldmap_objects.cpp:129
 msgid "Auto play"
 msgstr "자동 플레이"
 
-#: src/editor/worldmap_objects.cpp:133
+#: src/editor/worldmap_objects.cpp:131
 msgid "Title colour"
 msgstr "제목 색"
 
-#: src/editor/worldmap_objects.cpp:175
+#: src/editor/worldmap_objects.cpp:173
 msgid "Automatic"
 msgstr "자동"
 
-#: src/editor/worldmap_objects.cpp:177
+#: src/editor/worldmap_objects.cpp:175
 msgid "Target worldmap"
 msgstr "대상 월드맵"
 
-#: src/editor/worldmap_objects.cpp:240
+#: src/editor/worldmap_objects.cpp:238
 msgid "Stay action"
 msgstr "머물기 동작"
 
-#: src/editor/worldmap_objects.cpp:241
+#: src/editor/worldmap_objects.cpp:239
 msgid "Initial stay action"
 msgstr "초기 머물기 동작"
 
-#: src/editor/worldmap_objects.cpp:242
+#: src/editor/worldmap_objects.cpp:240
 msgid "Stay group"
 msgstr "머물기 그룹"
 
-#: src/editor/worldmap_objects.cpp:243
+#: src/editor/worldmap_objects.cpp:241
 msgid "Change on touch"
 msgstr "터치로 바꾸기"
 
-#: src/editor/worldmap_objects.cpp:273
+#: src/editor/worldmap_objects.cpp:271
 msgid "Show message"
 msgstr "메시지 보이기"
 
-#: src/editor/worldmap_objects.cpp:275
+#: src/editor/worldmap_objects.cpp:273
 msgid "Invisible"
 msgstr "보이지 않음"
+
+#: src/editor/overlay_widget.cpp:1297
+msgid "Autotile mode is on"
+msgstr "자동 타일 모드 켜짐"
+
+#: src/editor/overlay_widget.cpp:1299
+msgid "Hold Ctrl to enable autotile"
+msgstr "자동 타일을 활성화하려면 Ctrl 키를 길게 누르세요"
+
+#: src/editor/overlay_widget.cpp:1303
+msgid "Autotile erasing mode is on"
+msgstr "자동 타일 지우기 모드 켜짐"
+
+#: src/editor/overlay_widget.cpp:1305
+msgid "Selected tile isn't autotileable"
+msgstr "선택한 타일은 자동 타일이 안됩니다."
+
+#: src/editor/overlay_widget.cpp:1308
+msgid "Hold Ctrl to enable autotile erasing"
+msgstr "자동 타일 지우기를 활성화하려면 Ctrl 키를 길게 누르세요"
 
 #: data//credits.stxt:25
 msgid "Current SuperTux Team"
@@ -3333,349 +3482,378 @@ msgid "Graphics, Level Design, Story"
 msgstr "그래픽, 레벨 디자인, 이야기"
 
 #: data//credits.stxt:40
-msgid "Graphics, Story, Optimisation"
-msgstr "그래픽, 이야기, 최적화"
+msgid "Level Design, Story, Optimisation, Coordination"
+msgstr "레벨 디자인, 스토리, 최적화, 조정"
 
-#: data//credits.stxt:45 data//credits.stxt:100 data//credits.stxt:186
-#: data//credits.stxt:498
+#: data//credits.stxt:45 data//credits.stxt:105 data//credits.stxt:191
+#: data//credits.stxt:519
 msgid "Graphics"
 msgstr "그래픽"
 
-#: data//credits.stxt:50 data//credits.stxt:60 data//credits.stxt:82
-#: data//credits.stxt:88
+#: data//credits.stxt:50 data//credits.stxt:87 data//credits.stxt:93
 msgid "Graphics, Programming, Level Design"
 msgstr "그래픽, 프로그래밍, 레벨 디자인"
 
 #: data//credits.stxt:55
+msgid "Features and Programming"
+msgstr "기능 및 프로그래밍"
+
+#: data//credits.stxt:60
+msgid "Programming, Level Updates"
+msgstr "프로그래밍, 레벨 업데이트"
+
+#: data//credits.stxt:65
 msgid "Graphics, Programming"
 msgstr "그래픽, 프로그래밍"
 
-#: data//credits.stxt:65 data//credits.stxt:130 data//credits.stxt:135
-#: data//credits.stxt:140 data//credits.stxt:145 data//credits.stxt:160
-#: data//credits.stxt:165 data//credits.stxt:494 data//credits.stxt:506
+#: data//credits.stxt:70 data//credits.stxt:135 data//credits.stxt:140
+#: data//credits.stxt:145 data//credits.stxt:150 data//credits.stxt:165
+#: data//credits.stxt:170 data//credits.stxt:515 data//credits.stxt:527
 msgid "Programming"
 msgstr "프로그래밍"
 
-#: data//credits.stxt:71
+#: data//credits.stxt:76
 msgid "Original Developers"
 msgstr "원래 개발자"
 
-#: data//credits.stxt:76
+#: data//credits.stxt:81
 msgid "Original Developer"
 msgstr "원래 개발자"
 
-#: data//credits.stxt:94
+#: data//credits.stxt:99
 msgid "Music, Level Design"
 msgstr "음악, 레벨 디자인"
 
-#: data//credits.stxt:106
+#: data//credits.stxt:111
 msgid "Programming, Graphics, Level Design"
 msgstr "프로그래밍, 그래픽, 레벨 디자인"
 
-#: data//credits.stxt:112
+#: data//credits.stxt:117
 msgid "Programming, Level Design"
 msgstr "프로그래밍, 레벨 디자인"
 
-#: data//credits.stxt:118
+#: data//credits.stxt:123
 msgid "Graphics, Story"
 msgstr "그래픽, 이야기"
 
-#: data//credits.stxt:124
+#: data//credits.stxt:129
 msgid "Programming, Documentation"
 msgstr "프로그래밍, 설명문서"
 
-#: data//credits.stxt:150
+#: data//credits.stxt:155
 msgid "Coordination"
 msgstr "조정"
 
-#: data//credits.stxt:155
+#: data//credits.stxt:160
 msgid "Programming, \"Flexlay\" Level editor"
 msgstr "프로그래밍, \"Flexlay\" 레벨 편집기"
 
-#: data//credits.stxt:170
+#: data//credits.stxt:175
 msgid "Windows build fixes"
 msgstr "Windows 빌드 수정"
 
-#: data//credits.stxt:175
+#: data//credits.stxt:180
 msgid "Packaging, Nightly builds"
 msgstr "패키징, Nightly 빌드"
 
-#: data//credits.stxt:180
+#: data//credits.stxt:185
 msgid "Translation Guru (and many details anyone else could have done)"
 msgstr "번역 구루 (많은 번역들을 누구든지 해낼 수 있었습니다)"
 
-#: data//credits.stxt:240
+#: data//credits.stxt:251
 msgid "Level Design"
 msgstr "레벨 디자인"
 
-#: data//credits.stxt:414
+#: data//credits.stxt:431
 msgid "Additional contributors"
 msgstr "추가 기여자"
 
-#: data//credits.stxt:419
+#: data//credits.stxt:436
 msgid "Bug fixes"
 msgstr "버그 수정"
 
-#: data//credits.stxt:423
+#: data//credits.stxt:440
 msgid "Scripting functions, Level fixes"
 msgstr "스크립팅 기능, 레벨 수정"
 
-#: data//credits.stxt:427
+#: data//credits.stxt:444
 msgid "Code quality fixes"
 msgstr "코드 품질 수정"
 
-#: data//credits.stxt:431 data//credits.stxt:435 data//credits.stxt:439
-#: data//credits.stxt:466
+#: data//credits.stxt:448 data//credits.stxt:452 data//credits.stxt:456
+#: data//credits.stxt:483
 msgid "Various contributions"
 msgstr "다양한 기여"
 
-#: data//credits.stxt:443
+#: data//credits.stxt:460
 msgid "Build issue fix"
 msgstr "빌드 이슈 수정"
 
-#: data//credits.stxt:447 data//credits.stxt:451
+#: data//credits.stxt:464 data//credits.stxt:468
 msgid "Code contributions"
 msgstr "코드 기여"
 
-#: data//credits.stxt:454
+#: data//credits.stxt:471
 msgid "Code contribution, AppData file"
 msgstr "코드 기여, AppData 파일"
 
-#: data//credits.stxt:458
+#: data//credits.stxt:475
 msgid "Bug fix"
 msgstr "버그 수정"
 
-#: data//credits.stxt:462
+#: data//credits.stxt:479
 msgid "Menu reorganization"
 msgstr "메뉴 개편"
 
-#: data//credits.stxt:470
+#: data//credits.stxt:487
 msgid "Fixing tile bugs"
 msgstr "타일 버그 수정"
 
-#: data//credits.stxt:474
+#: data//credits.stxt:491
 msgid "Build error fix"
 msgstr "빌드 오류 수정"
 
-#: data//credits.stxt:478
+#: data//credits.stxt:495
 msgid "Scripting function fix"
 msgstr "스크립팅 기능 수정"
 
-#: data//credits.stxt:482
+#: data//credits.stxt:499
+msgid "New features and notable updates"
+msgstr "새로운 기능 및 주목할만한 업데이트"
+
+#: data//credits.stxt:503
 msgid "Support for \"glbinding\" as optional OpenGL binding"
 msgstr "\"glbinding\"을 위해 선택적 OpenGL 바인딩으로 지원"
 
-#: data//credits.stxt:486
+#: data//credits.stxt:507
 msgid "New menu code"
 msgstr "새 메뉴 코드"
 
-#: data//credits.stxt:490
+#: data//credits.stxt:511
 msgid "Big Tux Walking Sprites improvements"
 msgstr "큰 턱스 걷기 스프라이트 개선"
 
-#: data//credits.stxt:502 data//credits.stxt:510
+#: data//credits.stxt:523 data//credits.stxt:531
 msgid "Contrib Programming"
 msgstr "기여 프로그래밍"
 
-#: data//credits.stxt:514
+#: data//credits.stxt:535
 msgid "Programming, Previous Maintainer"
 msgstr "프로그래밍, 이전 유지 관리자"
 
-#: data//credits.stxt:518
+#: data//credits.stxt:539
 msgid "Various Contributions"
 msgstr "다양한 기여"
 
-#: data//credits.stxt:522 data//credits.stxt:526 data//credits.stxt:530
-#: data//credits.stxt:534 data//credits.stxt:538 data//credits.stxt:542
-#: data//credits.stxt:546 data//credits.stxt:550 data//credits.stxt:554
+#: data//credits.stxt:543
+msgid "Minor features and programming"
+msgstr "사소한 기능 및 프로그래밍"
+
+#: data//credits.stxt:547 data//credits.stxt:551 data//credits.stxt:555
+#: data//credits.stxt:559 data//credits.stxt:563 data//credits.stxt:567
+#: data//credits.stxt:571 data//credits.stxt:575 data//credits.stxt:579
+#: data//credits.stxt:583 data//credits.stxt:587 data//credits.stxt:591
 msgid "Contributions"
 msgstr "기여"
 
-#: data//credits.stxt:560
+#: data//credits.stxt:597
 msgid "Localization"
 msgstr "지역화"
 
-#: data//credits.stxt:1107
+#: data//credits.stxt:1144
 msgid " Special Thanks to"
 msgstr "특별 감사"
 
-#: data//credits.stxt:1112
+#: data//credits.stxt:1149
 msgid "Creator of Tux, the Linux penguin"
 msgstr "리눅스 펭귄인, 턱스 제작자"
 
-#: data//credits.stxt:1116
+#: data//credits.stxt:1153
 msgid "SDL, OpenAL and OpenGL"
 msgstr "SDL, OpenAL 및 OpenGL"
 
-#: data//credits.stxt:1117
+#: data//credits.stxt:1154
 msgid ""
 "For making such a great gaming experience\n"
 "        possible on Linux"
 msgstr "리눅스에서 이러한 훌륭한 게임 경험을\n        가능하게 합니다"
 
-#: data//credits.stxt:1122
+#: data//credits.stxt:1159
 msgid "and you, the player"
 msgstr "그리고 플레이어인 여러분"
 
-#: data//credits.stxt:1123
+#: data//credits.stxt:1160
 msgid "for giving this game a chance and playing it"
 msgstr "이 게임에 기회를 주고 플레이해주셔서"
 
-#: data//credits.stxt:1134
+#: data//credits.stxt:1171
 msgid "Visit our webpage at"
 msgstr "우리의 웹페이지를 방문하거나"
 
-#: data//credits.stxt:1143
+#: data//credits.stxt:1180
 msgid "Or visit us directly at IRC:"
 msgstr "우리에게 직접 IRC에서 방문하세요:"
 
-#: data//credits.stxt:1147
-msgid "#supertux at webchat.freenode.net"
-msgstr "webchat.freenode.net의 #supertux"
+#: data//credits.stxt:1184
+msgid "#supertux at web.libera.chat"
+msgstr "web.libera.chat의 #supertux"
 
-#: data//credits.stxt:1152
+#: data//credits.stxt:1189
 msgid "Or at our Forum:"
 msgstr "또는 우리의 포럼에 방문하세요:"
 
-#: data//credits.stxt:1161
+#: data//credits.stxt:1198
 msgid "Comments, ideas and suggestions"
 msgstr "의견, 아이디어 및 제안"
 
-#: data//credits.stxt:1165
+#: data//credits.stxt:1202
 msgid "go to our mailing list"
 msgstr "우리의 메일링 리스트에 가세요"
 
 #. l10n: typo contact
-#: data//credits.stxt:1175
+#: data//credits.stxt:1212
 msgid "Typographical errors can be"
 msgstr "오자는"
 
 #. l10n: typo contact
-#: data//credits.stxt:1180
+#: data//credits.stxt:1217
 msgid "reported to"
 msgstr "에 보고하실 수 있습니다"
 
 #. l10n: typo contact, see <https://github.com/SuperTux/supertux/issues/611>
-#: data//credits.stxt:1185
+#: data//credits.stxt:1222
 msgid "supertux-devel@lists.lethargik.org"
 msgstr "supertux-devel@lists.lethargik.org"
 
-#: data//credits.stxt:1192
+#: data//credits.stxt:1229
 msgid "Want to help…"
 msgstr "…도움이 필요하십니까?"
 
-#: data//credits.stxt:1197
+#: data//credits.stxt:1234
 msgid "…with localization?"
 msgstr "번역에…"
 
-#: data//credits.stxt:1207
+#: data//credits.stxt:1244
 msgid "…with something else?"
 msgstr "다른 것에…"
 
-#: data//credits.stxt:1218
+#: data//credits.stxt:1255
 msgid "Thank you for"
 msgstr "플레이해주셔서"
 
-#: data//credits.stxt:1222
+#: data//credits.stxt:1259
 msgid "playing"
 msgstr "감사합니다"
 
-#: data//credits.stxt:1232
+#: data//credits.stxt:1269
 msgid "Penny awaits you in warmer temperatures!"
 msgstr "페니는 따뜻한 기후에서 여러분을 기다리고 있습니다!"
 
-#: data//images/engine/editor/objects.stoi:156
+#: data//images/engine/editor/objects.stoi:162
 msgid "Bosses"
 msgstr "보스"
 
-#: data//images/engine/editor/objects.stoi:167
+#: data//images/engine/editor/objects.stoi:173
 msgid "Projectiles"
 msgstr "프로젝타일"
 
-#: data//images/engine/editor/objects.stoi:181
+#: data//images/engine/editor/objects.stoi:187
 msgid "Environment"
 msgstr "환경"
 
-#: data//images/ice_world.strf:6 data//images/tiles.strf:327
+#: data//images/ice_world.strf:10 data//images/tiles.strf:28
+#: data//images/worldmap.strf:41
+msgid "Snow"
+msgstr "눈"
+
+#: data//images/ice_world.strf:80
+msgid "Ice Cave & Crystal"
+msgstr "얼음 동굴 및 크리스탈"
+
+#: data//images/ice_world.strf:127
+msgid "Embellishments"
+msgstr "꾸밈"
+
+#: data//images/ice_world.strf:211 data//images/tiles.strf:386
 #: data//images/worldmap.strf:67
 msgid "Forest"
 msgstr "숲"
 
-#: data//images/ice_world.strf:106
-msgid "Ice Cave & Crystal"
-msgstr "얼음 동굴 및 크리스탈"
+#: data//images/ice_world.strf:320
+msgid "Underground Forest"
+msgstr "지하 숲"
 
-#: data//images/ice_world.strf:153
-msgid "Embellishments"
-msgstr "꾸밈"
+#: data//images/ice_world.strf:375
+msgid "Trees & Bushes"
+msgstr "나무와 덤불"
 
-#: data//images/ice_world.strf:237
-msgid "Ice"
-msgstr "얼음"
+#: data//images/ice_world.strf:406
+msgid "Seasonal"
+msgstr "계절"
 
-#: data//images/ice_world.strf:282 data//images/tiles.strf:693
-msgid "Castle"
-msgstr "성"
+#: data//images/ice_world.strf:496
+msgid "Structure"
+msgstr "구조"
 
-#: data//images/ice_world.strf:328
+#: data//images/ice_world.strf:557
 msgid "Pathing"
 msgstr "길 지정"
 
-#: data//images/ice_world.strf:424
+#: data//images/ice_world.strf:718
 msgid "Water"
 msgstr "물"
 
-#: data//images/tiles.strf:19 data//images/worldmap.strf:41
-msgid "Snow"
-msgstr "눈"
-
-#: data//images/tiles.strf:124
+#: data//images/tiles.strf:176
 msgid "Snow Background"
 msgstr "배경 보이기"
 
-#: data//images/tiles.strf:162
+#: data//images/tiles.strf:231
 msgid "Snow Mountain"
 msgstr "눈 산"
 
-#: data//images/tiles.strf:236
+#: data//images/tiles.strf:305
 msgid "Crystal"
 msgstr "크리스탈"
 
-#: data//images/tiles.strf:457
+#: data//images/tiles.strf:532
 msgid "Forest Background"
 msgstr "숲 배경"
 
-#: data//images/tiles.strf:572
+#: data//images/tiles.strf:663
 msgid "Block + Bonus"
 msgstr "상자 + 보너스"
 
-#: data//images/tiles.strf:618
+#: data//images/tiles.strf:715
 msgid "Pole + Signs"
 msgstr "막대기 + 표지판"
 
-#: data//images/tiles.strf:661
+#: data//images/tiles.strf:760
 msgid "Liquid"
 msgstr "액체"
 
-#: data//images/tiles.strf:833 data//images/worldmap.strf:199
+#: data//images/tiles.strf:793
+msgid "Castle"
+msgstr "성"
+
+#: data//images/tiles.strf:930 data//images/worldmap.strf:199
 msgid "Halloween"
 msgstr "할로윈"
 
-#: data//images/tiles.strf:861
+#: data//images/tiles.strf:958
 msgid "Industrial"
 msgstr "산업적"
 
-#: data//images/tiles.strf:876
+#: data//images/tiles.strf:973
 msgid "Unisolid + Lightmap"
 msgstr "유니솔리드 + 라이트맵"
 
-#: data//images/tiles.strf:893
+#: data//images/tiles.strf:1000
 msgid "Miscellaneous"
 msgstr "기타"
 
-#: data//images/tiles.strf:927
-msgid "Old/Unused"
-msgstr "오래됨/사용되지 않음"
+#: data//images/tiles.strf:1043
+msgid "Retro Snow"
+msgstr "레트로 눈"
 
 #: data//images/worldmap.strf:24
 msgid "Water paths"
